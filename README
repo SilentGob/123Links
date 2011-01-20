@@ -1,7 +1,7 @@
-This python script is used to scrape the 123people website and get all the links.
-It can be use to ask for the removal of the links you do not want published (see 123people website for how to send the links)
+This python script can be used to get all the links from a page of the 123people website.
+The main goal is to ask for the removal of the links you do not want published (see the support section of the 123people website on how to send the links).
 
-The links are sorted by sections (according to the 123people website) and when there is one the source is mentionned (source) after the link.
+The links are sorted by sections (according to the 123people website) and when there is one the source is mentioned (source) after the link.
 
 Usage:
 123Links [-o outputMethod] 123PeopleURL
