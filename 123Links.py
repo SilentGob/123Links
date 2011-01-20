@@ -24,7 +24,7 @@ UAStrings = ["Mozilla/5.0 (Windows; U; Windows NT 5.2; en-GB; rv:1.9.2.9) Gecko/
 							"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; fr-fr) AppleWebKit/534.15+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4"]
 
 # list of link we don't want to see in list
-BlackList = ["http://commander.1and1.fr", "wikipedia.org", "123people.fr"]
+BlackList = [".1and1.", "wikipedia.org", "123people."]
 
 class MyURLopener(urllib.FancyURLopener):
 	version = random.choice(UAStrings)
